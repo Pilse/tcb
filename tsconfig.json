@@ -1,0 +1,14 @@
+{
+  "include": ["src"],
+  "exclude": ["dist"],
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM"],
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true
+  }
+}
