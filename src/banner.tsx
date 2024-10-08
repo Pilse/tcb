@@ -5,7 +5,5 @@ interface IBannerProps extends HTMLAttributes<HTMLDivElement> {
 }
 
 export const Banner = ({ id, ...props }: IBannerProps) => {
-  return (
-    <div data-cb-campaign-id={id} data-cb-embedded="banner" {...props}></div>
-  );
+  return <div data-campaign-id={id} data-cb-embedded="banner" {...props}></div>;
 };
