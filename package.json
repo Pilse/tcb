@@ -1,6 +1,8 @@
 {
   "name": "testcbanner",
   "version": "0.0.0",
+  "repository": "https://github.com/Pilse/tcb",
+  "homepage": "https://github.com/Pilse/tcb",
   "exports": {
     ".": {
       "require": "./dist/index.js",
